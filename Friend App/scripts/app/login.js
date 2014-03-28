@@ -56,7 +56,7 @@ app.Login = (function () {
 
         // Authenticate to use Everlive as a particular user
         var login = function () {
-
+            
             var username = $loginUsername.val();
             var password = $loginPassword.val();
 
@@ -80,7 +80,7 @@ app.Login = (function () {
                   }
             );
         };
-
+        
         // Authenticate using Facebook credentials
         var loginWithFacebook = function() {
             
